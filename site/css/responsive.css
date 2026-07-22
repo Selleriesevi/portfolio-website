@@ -1,0 +1,165 @@
+@media (max-width: 768px) {
+  :root {
+    --nav-height: 80px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+
+  .nav__toggle {
+    display: block;
+  }
+
+  .section--hero {
+    padding: 40px 0;
+  }
+
+  .hero__text {
+    font-size: 20px;
+  }
+
+  .project__inner {
+    flex-direction: column;
+  }
+
+  .project__image {
+    height: auto;
+    aspect-ratio: 484 / 350;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer__contact {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .case-hero {
+    padding: 80px 24px;
+  }
+
+  .case-hero__bg--desktop {
+    display: none;
+  }
+
+  .case-hero__bg--mobile {
+    display: block;
+    object-position: center center;
+  }
+
+  .case-hero--imito,
+  .case-hero--einkaufsliste {
+    min-height: 430px;
+  }
+
+  .case-hero--panel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .case-hero--panel .case-hero__title-panel {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .case-hero__title {
+    font-size: clamp(32px, 10vw, 48px);
+    line-height: 1.15;
+  }
+
+  .content-section h2 {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 32px;
+  }
+
+  .content-section > h2:first-child {
+    padding-top: 48px;
+  }
+
+  .content-section h3.subtitle + h2 {
+    padding-top: 8px;
+  }
+
+  .content-section .text-block .role-title {
+    font-size: 20px;
+  }
+
+  .image-block figcaption,
+  .carousel__caption {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .comparison-table {
+    display: none;
+  }
+
+  .comparison-cards {
+    display: flex;
+  }
+
+  .carousel--mobile-only {
+    display: block;
+    margin-left: -24px;
+    margin-right: -24px;
+    width: calc(100% + 48px);
+  }
+
+  .image-block--desktop-only {
+    display: none;
+  }
+
+  .cv-card h3 {
+    font-size: 24px;
+  }
+
+  .cv-card ul {
+    font-size: 18px;
+  }
+
+  .skills__inner--desktop {
+    display: none;
+  }
+
+  .skills__inner--mobile {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: left;
+  }
+
+  .skills__inner--mobile .skills__item {
+    font-size: 32px;
+  }
+
+  .skills__inner--mobile .skills__icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 769px) {
+  .nav__flyout {
+    display: none !important;
+  }
+
+  .carousel--mobile-only {
+    display: none;
+  }
+
+  .skills__inner--mobile {
+    display: none !important;
+  }
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denner App Einkaufsliste — Severin Grob</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/case-study.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="../index.html" class="nav__logo">Severin Grob</a>
+      <nav class="nav__menu" aria-label="Hauptnavigation">
+        <div class="nav__links">
+          <a href="../index.html#case-studies">Case studies</a>
+          <a href="../cv.html">CV</a>
+        </div>
+        <a href="https://www.linkedin.com/in/severin-grob-9a1a15102/" class="btn btn--nav" target="_blank" rel="noopener noreferrer">Let's work together</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-flyout">
+        <span class="nav__toggle-icon" aria-hidden="true">
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <nav id="nav-flyout" class="nav__flyout" aria-label="Mobile Navigation">
+    <a class="nav__flyout-item" href="einkaufsliste.html">Case Study: Einkaufsliste</a>
+    <a class="nav__flyout-item" href="uebersichtlichkeit.html">Case Study: App Übersicht</a>
+    <a class="nav__flyout-item" href="imito.html">Case Study: 3D-Scan App</a>
+    <a class="nav__flyout-item" href="../cv.html">CV</a>
+    <div class="nav__flyout-cta">
+      <a href="https://www.linkedin.com/in/severin-grob-9a1a15102/" class="btn" target="_blank" rel="noopener noreferrer">Let's work together</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="case-hero case-hero--panel case-hero--einkaufsliste">
+      <img class="case-hero__bg case-hero__bg--desktop" src="../assets/images/hero-einkaufsliste-desktop.png" alt="">
+      <img class="case-hero__bg case-hero__bg--mobile" src="../assets/images/hero-einkaufsliste-mobile.jpg" alt="">
+      <div class="case-hero__title-panel">
+        <h1 class="case-hero__title">Optimierung der Einkaufs&shy;liste</h1>
+      </div>
+    </section>
+
+    <div class="container content-section">
+      <h2>Executive Summary</h2>
+      <div class="text-block">
+        <p>Das Einkaufslisten-Feature zeigte ein geringes Engagement, was zu Opportunitätskosten für das Business und schlechten App-Bewertungen führte. Durch eine datengetriebene Discovery-Phase sowie iterative Design-Entwicklung auf Basis von Nutzerfeedback habe ich die Einkaufslisten-Funktion der Denner App gezielt optimiert. Das Ergebnis:</p>
+        <ul>
+          <li><strong class="highlight">28%</strong> mehr aktive Nutzer der Einkaufslisten-Funktion nach Go-Live</li>
+          <li><strong class="highlight">90%</strong> CSAT-Score</li>
+        </ul>
+      </div>
+
+      <div class="text-block">
+        <p class="role-title">Meine Rolle:</p>
+        <ul>
+          <li>Projektleitung</li>
+          <li>User-Research Lead</li>
+          <li>Requirements Engineering</li>
+        </ul>
+      </div>
+
+      <figure class="image-block image-block--desktop-only">
+        <img src="../assets/images/einkaufsliste-1.jpg" alt="Vergleich altes Design und Design-Vorschlag">
+      </figure>
+
+      <div class="carousel carousel--mobile-only" aria-label="Design-Vergleich">
+        <div class="carousel__track">
+          <div class="carousel__slide">
+            <img src="../assets/images/carousel/eink-1-alte.jpg" alt="Alte Einkaufsliste">
+            <p class="carousel__caption">Alte Einkaufsliste</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../assets/images/carousel/eink-1-mid.jpg" alt="Mein Mid-Fidelity Design">
+            <p class="carousel__caption">Mein Mid-Fidelity Design</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../assets/images/carousel/eink-1-neu.jpg" alt="Neues Design der Einkaufsliste">
+            <p class="carousel__caption">Neues Design der Einkaufsliste</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-block">
+        <p class="role-title">Meine Aufgaben:</p>
+        <ul>
+          <li><strong>Qualitative UX Research:</strong> Wer sind die aktuellen Nutzer und wie erleben sie das Produkt aktuell?</li>
+          <li><strong>UX Design Low-Fidelity bis Mid-Fidelity:</strong> Vorschläge für Redesign</li>
+          <li>Schreiben von Backlog-Items in Azure Devops und Durchführung von Acceptance Test</li>
+          <li>Post-launch Dokumentationen</li>
+        </ul>
+      </div>
+
+      <h2>Angewandte Methoden:</h2>
+      <div class="chips">
+        <span class="chip">Sentiment-Analyse</span>
+        <span class="chip">Umfrage</span>
+        <span class="chip">Wireframing</span>
+        <span class="chip">Iteratives Prototyping</span>
+        <span class="chip">User Interviews</span>
+        <span class="chip">Usability-Testing</span>
+        <span class="chip">GA4-Analyse</span>
+      </div>
+
+      <hr class="divider">
+
+      <h3 class="subtitle">DISCOVER</h3>
+      <h2>Problem identifizieren &amp; validieren</h2>
+      <div class="text-block">
+        <p>Ich konnte über mehrere unabhängige Datenquellen zeigen, dass die Einkaufsliste die Erwartungen der Userinnen und User nicht erfüllte.</p>
+        <ul>
+          <li><strong>Sentiment-Analyse</strong> der Rezensionen im Google Play Store und App Store
+            <ul><li>8% aller App-Rezensionen bezogen sich explizit auf die Einkaufsliste</li></ul>
+          </li>
+          <li><strong>Explorative In-App Umfrage</strong>
+            <ul>
+              <li>Frage: Wenn Sie einen Zauberstab hätten, was würden Sie an der Denner App ändern?</li>
+              <li>18% aller Befragten (n=1040) nannten eine Neugestaltung der Einkaufsliste.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <hr class="divider">
+
+      <h3 class="subtitle subtitle--alt">EXPLORE &amp; TEST</h3>
+      <h2>Design-Entwicklung &amp; Iterative Validierung</h2>
+      <div class="text-block">
+        <p>Die Lösungen entstanden aus Nutzerfeedback und wurden über mehrere Iterationen validiert.</p>
+        <ol>
+          <li><strong>Low-Fidelity Design</strong> basierend auf Umfrage-Feedback</li>
+          <li>Durchführung von <strong>Interviews</strong> mit integriertem Usability-Test</li>
+          <li>Iteration des <strong>Mid-Fidelity-Designs</strong> anhand der Insights</li>
+          <li>Präsentation Research Findings an UX/UI Designer für High-Fidelity-Design</li>
+          <li><strong>Usability-Test</strong> mit High-Fidelity-Design (n=5)</li>
+          <li>Anpassung des High-Fidelity-Designs</li>
+        </ol>
+      </div>
+
+      <figure class="image-block image-block--desktop-only">
+        <img src="../assets/images/einkaufsliste-2.jpg" alt="Design-Iterationen von Low- bis High-Fidelity">
+        <figcaption>Die ersten drei Screenshots (low bis mid-fidelity design) stammen vor mir.</figcaption>
+      </figure>
+
+      <div class="carousel carousel--mobile-only" aria-label="Design-Iterationen">
+        <div class="carousel__track">
+          <div class="carousel__slide">
+            <img src="../assets/images/carousel/eink-2-skizze.jpg" alt="Low-Fidelity Skizze von mir">
+            <p class="carousel__caption">Low-Fidelity Skizze von mir</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../assets/images/carousel/eink-2-mid.jpg" alt="Erstes Mid-Fidelity Design von mir">
+            <p class="carousel__caption">Erstes Mid-Fidelity Design von mir</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../assets/images/carousel/eink-2-neu-1.jpg" alt="zweites Mid-Fidelity Design von mir">
+            <p class="carousel__caption">zweites Mid-Fidelity Design von mir</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../assets/images/carousel/eink-2-neu-2.jpg" alt="Erstes Design nach Übergabe">
+            <p class="carousel__caption">Erstes Design nach Übergabe</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../assets/images/carousel/eink-2-neu-3.jpg" alt="Zweites Design nach Übergabe">
+            <p class="carousel__caption">Zweites Design nach Übergabe</p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <h3 class="subtitle">LISTEN</h3>
+      <h2>Impact nach dem Go-Live messbar belegt</h2>
+      <div class="text-block">
+        <p>Meine Ergebnisse aus der Research sowie meine low-fidelity Design Vorschläge haben dazu geführt, dass das Design verändert werden konnte. Die Optimierung hatte einen klar messbaren Effekt auf Nutzung und Zufriedenheit.</p>
+        <ul>
+          <li><strong>+<span class="highlight">28%</span> aktive Nutzer</strong>, die die Einkaufsliste nutzen</li>
+          <li><strong>CSAT Score: <span class="highlight">90%</span></strong></li>
+          <li>Deutlich verbesserte Nutzerzufriedenheit bei einem Kernfeature, welches lange vernachlässigt wurde.</li>
+        </ul>
+      </div>
+
+      <figure class="image-block">
+        <img src="../assets/images/einkaufsliste-3.jpg" alt="Looker Studio Nutzungsstatistik">
+        <figcaption>Meine Visualisierung in Looker-Studio zeigt, dass nach dem Go-Live im Juni die Nutzung der Einkaufslistenfunktion signifikant steigt.</figcaption>
+      </figure>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__name">Severin Grob</span>
+      <div class="footer__contact">
+        <a href="mailto:severin.grob@hotmail.com">severin.grob@hotmail.com</a>
+        <a href="tel:+41774084430">077 408 44 30</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/nav.js"></script>
+  <script src="../js/carousel.js"></script>
+</body>
+</html>
