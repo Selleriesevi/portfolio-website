@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /portfolio-website/case-studies/imito.html
+Disallow: /case-studies/imito.html
