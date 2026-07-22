@@ -43,8 +43,27 @@
   padding: 4px;
 }
 
+.case-hero--imito {
+  background-color: #8499ab;
+  min-height: 440px;
+}
+
+.case-hero--imito::after {
+  content: "";
+  position: absolute;
+  left: -10%;
+  right: -10%;
+  bottom: -1px;
+  height: 56px;
+  background: var(--bg);
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
 .case-hero--imito .case-hero__title-panel {
-  background: rgba(142, 155, 165, 0.4);
+  background: transparent;
+  z-index: 1;
 }
 
 .case-hero--einkaufsliste .case-hero__title-panel {
