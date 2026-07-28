@@ -43,12 +43,12 @@
   padding: 4px;
 }
 
-.case-hero--imito {
+.case-hero--wunddokumentation {
   background-color: #8499ab;
   min-height: 440px;
 }
 
-.case-hero--imito::after {
+.case-hero--wunddokumentation::after {
   content: "";
   position: absolute;
   left: -10%;
@@ -61,7 +61,7 @@
   pointer-events: none;
 }
 
-.case-hero--imito .case-hero__title-panel {
+.case-hero--wunddokumentation .case-hero__title-panel {
   background: transparent;
   z-index: 1;
 }
