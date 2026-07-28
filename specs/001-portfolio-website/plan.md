@@ -67,7 +67,7 @@ site/
 ├── case-studies/
 │   ├── einkaufsliste.html              # Denner Einkaufsliste
 │   ├── uebersichtlichkeit.html         # Denner Übersichtlichkeit
-│   └── weinkonsum.html                 # Generative Research Weinkonsum
+│   └── wunddokumentation.html          # 3D-Scan für Wunddokumentationen
 ├── css/
 │   ├── base.css                        # Reset, variables, typography
 │   ├── layout.css                      # Container, grid, sections

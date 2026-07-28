@@ -54,7 +54,7 @@
 - [ ] T013 [US1] Add hero section: avatar, h1, intro paragraphs (content from Figma node 21:123)
 - [ ] T014 [P] [US1] Add case study teaser 1 (Einkaufsliste) with image, text, metrics, link to case-studies/einkaufsliste.html
 - [ ] T015 [P] [US1] Add case study teaser 2 (Übersichtlichkeit) with image, text, metrics, link to case-studies/uebersichtlichkeit.html
-- [ ] T016 [P] [US1] Add case study teaser 3 (Imito 3D-Scan) with image, text, link to case-studies/imito.html
+- [ ] T016 [P] [US1] Add case study teaser 3 (3D-Scan Wunddokumentation) with image, text, link to case-studies/wunddokumentation.html
 - [ ] T017 [US1] Add skills section with alternating labels and icons
 - [ ] T018 [US1] Add footer with name, email (mailto), phone (tel)
 - [ ] T019 [US1] Link all CSS files in index.html and verify desktop layout matches Figma 21:123
@@ -74,7 +74,7 @@
 
 - [ ] T021 [P] [US2] Implement site/case-studies/einkaufsliste.html from Figma nodes 564:471 (desktop) / 930:375 (mobile)
 - [ ] T022 [P] [US2] Implement site/case-studies/uebersichtlichkeit.html from Figma nodes 446:336 / 1304:826
-- [ ] T023 [P] [US2] Implement site/case-studies/imito.html from Figma nodes 1294:526 / 1299:672
+- [ ] T023 [P] [US2] Implement site/case-studies/wunddokumentation.html from Figma nodes 1294:526 / 1299:672
 - [ ] T023b [US2] Implement responsive card layout for comparison table on uebersichtlichkeit.html (mobile)
 - [ ] T024 [US2] Create site/js/carousel.js for mobile image carousel on case study pages
 - [ ] T025 [US2] Add back-to-home navigation link on all case study pages

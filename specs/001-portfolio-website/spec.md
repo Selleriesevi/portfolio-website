@@ -39,7 +39,7 @@ Als interessierter Recruiter möchte ich eine vollständige Case Study lesen, um
 
 1. **Given** ein Besucher ist auf der Case-Study-Seite „Denner App Einkaufsliste", **When** er den Inhalt liest, **Then** sieht er Problemstellung, Vorgehen und messbare Ergebnisse (Nutzung +28%, CSAT 90%).
 2. **Given** ein Besucher ist auf der Case-Study-Seite „Denner App Übersichtlichkeit", **When** er den Inhalt liest, **Then** sieht er Research- und Design-Ansatz mit CSAT-Verbesserung (+26).
-3. **Given** ein Besucher ist auf der Case-Study-Seite „3D-Scan für Wunddokumentationen" (Imito), **When** er den Inhalt liest, **Then** sieht er vollständigen Case-Study-Text mit begleitenden Bildern.
+3. **Given** ein Besucher ist auf der Case-Study-Seite „3D-Scan für Wunddokumentationen", **When** er den Inhalt liest, **Then** sieht er vollständigen Case-Study-Text mit begleitenden Bildern.
 4. **Given** ein Besucher ist auf einer Case-Study-Seite, **When** er die Navigation nutzt, **Then** kann er zur Startseite zurückkehren.
 
 ---
@@ -87,7 +87,7 @@ Als Besucher auf dem Smartphone möchte ich die Portfolio-Seite komfortabel lese
 ### Functional Requirements
 
 - **FR-001**: System MUST eine Startseite bereitstellen mit Hero-Bereich (Foto, Name, Intro-Text), Case-Study-Teaser (3 Projekte), Skills-Bereich und Footer.
-- **FR-002**: System MUST drei vollständige Case-Study-Seiten bereitstellen: Denner Einkaufsliste, Denner Übersichtlichkeit, und Imito 3D-Scan.
+- **FR-002**: System MUST drei vollständige Case-Study-Seiten bereitstellen: Denner Einkaufsliste, Denner Übersichtlichkeit, und 3D-Scan Wunddokumentation.
 - **FR-003**: System MUST eine CV-Seite mit Lebenslauf-Inhalten bereitstellen.
 - **FR-004**: System MUST eine persistente Navigation mit Logo/Name, Links zu Case Studies und CV, sowie einem „Let's work together"-Button bereitstellen.
 - **FR-013**: System MUST auf der Case-Study-Seite „Übersichtlichkeit" eine Vergleichstabelle (Desktop) anzeigen; auf Mobile MUST die Tabelle als gestapelte Karten dargestellt werden (kein horizontales Scrollen).
@@ -126,7 +126,7 @@ Als Besucher auf dem Smartphone möchte ich die Portfolio-Seite komfortabel lese
 - Kein Analytics oder Tracking in Version 1.
 - Kein CMS — Inhalte sind statisch im HTML.
 - Der Bewerber (Severin Grob) reviewed visuelle Abweichungen vor Go-Live.
-- Home zeigt drei Case-Study-Teaser: Einkaufsliste, Übersichtlichkeit, Imito 3D-Scan.
+- Home zeigt drei Case-Study-Teaser: Einkaufsliste, Übersichtlichkeit, 3D-Scan Wunddokumentation.
 - Skills auf der Home: UX Research, UX Design, Design Thinking, Prototyping, Vibecoding.
 - Soft-Redesign-Tabelle existiert nur als Desktop-Design in Figma; Mobile-Adaptation als Karten-Layout wird bei der Umsetzung definiert.
 
@@ -141,7 +141,7 @@ Als Besucher auf dem Smartphone möchte ich die Portfolio-Seite komfortabel lese
 | case-study_shopping-mobile | 930:375 | Case Study Einkaufsliste (Mobile) |
 | Soft-Redesign-Desktop | 446:336 | Case Study Übersichtlichkeit |
 | Soft-Redesign-mobile | 1304:826 | Case Study Übersichtlichkeit (Mobile) |
-| Case study-Imito-Desktop | 1294:526 | Case Study Imito |
-| Case study-Imito-mobile | 1299:672 | Case Study Imito (Mobile) |
+| Case study Wunddokumentation Desktop | 1294:526 | Case Study 3D-Scan Wunddokumentation |
+| Case study Wunddokumentation Mobile | 1299:672 | Case Study 3D-Scan Wunddokumentation (Mobile) |
 | CV-Desktop | 1316:1401 | Lebenslauf |
 | CV-Mobile | 1347:813 | Lebenslauf (Mobile) |

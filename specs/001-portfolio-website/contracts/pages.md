@@ -69,11 +69,13 @@ These contracts define the expected structure and behavior of each page. Used fo
 
 **Sections**: Navigation, case study content, images, footer
 
-## Page: Case Study — Weinkonsum (`site/case-studies/weinkonsum.html`)
+## Page: Case Study — 3D-Scan Wunddokumentation (`site/case-studies/wunddokumentation.html`)
 
-**Figma**: Referenced from home teaser
+**Figma**: Desktop 1294:526, Mobile 1299:672
 
 **Sections**: Navigation, case study content, images, footer
+
+**Hinweis**: Seite trägt `noindex, nofollow` (sensible Inhalte; nicht für Suchmaschinenindexierung).
 
 ## Page: CV (`site/cv.html`)
 
@@ -104,7 +106,7 @@ These contracts define the expected structure and behavior of each page. Used fo
 | `/cv.html` | `site/cv.html` |
 | `/case-studies/einkaufsliste.html` | `site/case-studies/einkaufsliste.html` |
 | `/case-studies/uebersichtlichkeit.html` | `site/case-studies/uebersichtlichkeit.html` |
-| `/case-studies/imito.html` | `site/case-studies/imito.html` |
+| `/case-studies/wunddokumentation.html` | `site/case-studies/wunddokumentation.html` |
 
 ## Responsive: Comparison Table (Übersichtlichkeit)
 

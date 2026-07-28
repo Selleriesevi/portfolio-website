@@ -49,7 +49,7 @@ For each page, compare against Figma screenshot:
 | Home | 21:123 | 926:352 | /index.html |
 | Einkaufsliste | 564:471 | 930:375 | /case-studies/einkaufsliste.html |
 | Übersichtlichkeit | 446:336 | 1304:826 | /case-studies/uebersichtlichkeit.html |
-| Weinkonsum | — | — | /case-studies/weinkonsum.html |
+| Wunddokumentation | 1294:526 | 1299:672 | /case-studies/wunddokumentation.html |
 | CV | 1316:1401 | 1347:813 | /cv.html |
 
 ## GitHub Pages Deployment

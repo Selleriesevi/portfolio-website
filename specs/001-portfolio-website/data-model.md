@@ -23,7 +23,7 @@ Represents a standalone HTML page in the site.
 | index | Severin Grob — Portfolio | 21:123 | 926:352 |
 | case-studies/einkaufsliste | Denner App Einkaufsliste | 564:471 | 930:375 |
 | case-studies/uebersichtlichkeit | Denner App Übersichtlichkeit | 446:336 | 1304:826 |
-| case-studies/imito | 3D-Scan für Wunddokumentationen | 1294:526 | 1299:672 |
+| case-studies/wunddokumentation | 3D-Scan für Wunddokumentationen | 1294:526 | 1299:672 |
 | cv | Lebenslauf — Severin Grob | 1316:1401 | 1347:813 |
 
 ## Section
@@ -57,7 +57,7 @@ Extended section type for full case study pages.
 
 1. **Denner Einkaufsliste** — Problem: low usage, bad ratings. Results: +28% usage, 90% CSAT.
 2. **Denner Übersichtlichkeit** — Problem: perceived clutter. Results: +26 CSAT.
-3. **Generative Research Weinkonsum** — Problem: limited wine customer knowledge. Results: strategy insights.
+3. **3D-Scan Wunddokumentation** — Problem: inconsistent wound documentation. Results: SUS 77.81.
 
 ## Asset
 
