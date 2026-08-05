@@ -43,12 +43,14 @@
   padding: 4px;
 }
 
-.case-hero--wunddokumentation {
+.case-hero--wunddokumentation,
+.case-hero--weinkonsum {
   background-color: #8499ab;
   min-height: 440px;
 }
 
-.case-hero--wunddokumentation::after {
+.case-hero--wunddokumentation::after,
+.case-hero--weinkonsum::after {
   content: "";
   position: absolute;
   left: -10%;
@@ -61,9 +63,15 @@
   pointer-events: none;
 }
 
-.case-hero--wunddokumentation .case-hero__title-panel {
+.case-hero--wunddokumentation .case-hero__title-panel,
+.case-hero--weinkonsum .case-hero__title-panel {
   background: transparent;
   z-index: 1;
+}
+
+/* Titel passt ohne Silbentrennung in jede Zeile — bricht sonst zu "For-/schung" */
+.case-hero--weinkonsum .case-hero__title {
+  hyphens: manual;
 }
 
 .case-hero--einkaufsliste .case-hero__title-panel {
@@ -174,6 +182,10 @@
   width: 100%;
   margin: 0 auto;
   border-radius: 4px;
+}
+
+.image-block--narrow img {
+  max-width: 500px;
 }
 
 .image-block figcaption {
