@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denner app soft redesign — Severin Grob</title>
+  <link rel="alternate" hreflang="de" href="../../case-studies/uebersichtlichkeit.html">
+  <link rel="alternate" hreflang="en" href="uebersichtlichkeit.html">
+  <link rel="alternate" hreflang="x-default" href="../../case-studies/uebersichtlichkeit.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/case-study.css">
+  <link rel="stylesheet" href="../../css/responsive.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="../index.html" class="nav__logo">Severin Grob</a>
+      <nav class="nav__menu" aria-label="Main navigation">
+        <div class="nav__links">
+          <a href="../index.html#case-studies">Case studies</a>
+          <a href="../cv.html">CV</a>
+        </div>
+        <div class="nav__lang" role="group" aria-label="Language">
+          <a class="nav__lang-link" href="../../case-studies/uebersichtlichkeit.html" hreflang="de" lang="de">DE</a>
+          <span class="nav__lang-separator" aria-hidden="true">|</span>
+          <span class="nav__lang-link nav__lang-link--active" aria-current="page">EN</span>
+        </div>
+        <a href="https://www.linkedin.com/in/severin-grob-9a1a15102/" class="btn btn--nav" target="_blank" rel="noopener noreferrer">Let's work together</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-flyout">
+        <span class="nav__toggle-icon" aria-hidden="true">
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <nav id="nav-flyout" class="nav__flyout" aria-label="Mobile navigation">
+    <div class="nav__flyout-lang" role="group" aria-label="Language">
+      <a class="nav__flyout-lang-link" href="../../case-studies/uebersichtlichkeit.html" hreflang="de" lang="de">DE</a>
+      <span class="nav__flyout-lang-separator" aria-hidden="true">|</span>
+      <span class="nav__flyout-lang-link nav__flyout-lang-link--active" aria-current="page">EN</span>
+    </div>
+    <a class="nav__flyout-item" href="einkaufsliste.html">Case study: Shopping list</a>
+    <a class="nav__flyout-item" href="uebersichtlichkeit.html">Case study: App clarity</a>
+    <a class="nav__flyout-item" href="wunddokumentation.html">Case study: 3D scan app</a>
+    <a class="nav__flyout-item" href="weinkonsum.html">Case study: Wine consumption</a>
+    <a class="nav__flyout-item" href="../cv.html">CV</a>
+    <div class="nav__flyout-cta">
+      <a href="https://www.linkedin.com/in/severin-grob-9a1a15102/" class="btn" target="_blank" rel="noopener noreferrer">Let's work together</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="case-hero">
+      <img class="case-hero__bg" src="../../assets/images/hero-uebersichtlichkeit.jpg" alt="">
+      <h1 class="case-hero__title">Denner App Soft-Redesign</h1>
+    </section>
+
+    <div class="container content-section">
+      <h2>Executive Summary</h2>
+      <div class="text-block">
+        <p>Through a hypothesis-driven UX redesign, I significantly improved the perceived clarity of the Denner app:</p>
+        <ul>
+          <li><strong class="highlight">28%</strong> Anstieg des CSAT-Scores von 58% auf 86%</li>
+        </ul>
+      </div>
+
+      <div class="text-block">
+        <p class="role-title">My role:</p>
+        <ul>
+          <li>Project lead</li>
+          <li>User research lead</li>
+          <li>Requirements engineering</li>
+        </ul>
+      </div>
+
+      <div class="text-block">
+        <p class="role-title">My tasks:</p>
+        <ul>
+          <li>Quantitative UX research and statistical analysis</li>
+          <li>UX design — high fidelity</li>
+          <li>Project lead and handoff to design and development team</li>
+          <li>Writing backlog items in Azure DevOps and running acceptance tests</li>
+          <li>Post-launch documentation</li>
+        </ul>
+      </div>
+
+      <h2>Methods used:</h2>
+      <div class="chips">
+        <span class="chip">Survey</span>
+        <span class="chip">High-Fidelity Design</span>
+        <span class="chip">ANOVA</span>
+        <span class="chip">Pairwise t-tests with Bonferroni correction</span>
+        <span class="chip">Usability-Testing</span>
+      </div>
+
+      <hr class="divider">
+
+      <h3 class="subtitle">DISCOVER</h3>
+      <h2>Context and problem definition</h2>
+      <div class="text-block">
+        <p>Lack of clarity hurts user satisfaction.</p>
+        <ul>
+          <li>
+            <strong>CSAT survey</strong> (n = 2'575)<br>
+            → <span class="highlight">58%</span> CSAT-Score (kritisch tief)<br>
+            → <span class="highlight">30%</span> name <strong>lack of clarity</strong> as the main problem
+          </li>
+        </ul>
+      </div>
+
+      <hr class="divider">
+
+      <h3 class="subtitle subtitle--alt">EXPLORE &amp; TEST</h3>
+      <h2>Research question</h2>
+      <div class="text-block">
+        <p>Together with the product development team, I defined and prioritized research questions and formulated hypotheses for the research approach.</p>
+        <p><strong>Research Question:</strong><br>
+        How can clarity in the Denner app be improved — and will users actually perceive an alternative design as clearer?</p>
+      </div>
+
+      <hr class="divider">
+
+      <h3 class="subtitle subtitle--alt">EXPLORE &amp; TEST</h3>
+      <h2>Methodological approach</h2>
+      <div class="text-block">
+        <p>I developed a new high-fidelity design in Figma, optimized for:</p>
+        <ul>
+          <li>visual hierarchy,</li>
+          <li>information density</li>
+          <li>and navigation clarity</li>
+        </ul>
+        <p>Quantitative design comparison (validation)</p>
+        <p>I tested four different designs with a rating survey among roughly 2,000 active users and analyzed the data using ANOVA and pairwise t-tests.</p>
+      </div>
+
+      <h2>Designs tested and results</h2>
+      <figure class="image-block image-block--desktop-only">
+        <img src="../../assets/images/uebersichtlichkeit-1.jpg" alt="Four app designs compared">
+      </figure>
+
+      <div class="carousel carousel--mobile-only" aria-label="Getestete Designs">
+        <div class="carousel__track">
+          <div class="carousel__slide">
+            <img src="../../assets/images/carousel/ueber-1-ansicht-a.jpg" alt="Denner app view A">
+            <p class="carousel__caption">Denner app view A</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../../assets/images/carousel/ueber-1-denner-ch.jpg" alt="Denner.ch mobile view">
+            <p class="carousel__caption">Denner.ch mobile view</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../../assets/images/carousel/ueber-1-ansicht-b.jpg" alt="Denner app view B">
+            <p class="carousel__caption">Denner app view B</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../../assets/images/carousel/ueber-1-alternative.jpg" alt="My design alternative">
+            <p class="carousel__caption">My design alternative</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="comparison-table">
+        <div class="comparison-table__header">
+          <span>Description</span>
+          <span>Design</span>
+          <span>Mean</span>
+          <span>Variance</span>
+        </div>
+        <div class="comparison-table__row">
+          <span>Denner app view A</span>
+          <span>3er Grid</span>
+          <span>3.3</span>
+          <span>1.4</span>
+        </div>
+        <div class="comparison-table__row">
+          <span>Denner.ch mobile view</span>
+          <span>Landscape</span>
+          <span>3.5</span>
+          <span>1.4</span>
+        </div>
+        <div class="comparison-table__row">
+          <span>Denner app view B</span>
+          <span>2er Grid</span>
+          <span>3.7</span>
+          <span>1.1</span>
+        </div>
+        <div class="comparison-table__row comparison-table__row--highlight">
+          <span>Design alternative</span>
+          <span>Landscape</span>
+          <span>4.1</span>
+          <span>1.0</span>
+        </div>
+      </div>
+
+      <div class="comparison-cards">
+        <article class="comparison-card">
+          <h4 class="comparison-card__title">Denner app view A</h4>
+          <div class="comparison-card__detail"><span>Design</span><span>3er Grid</span></div>
+          <div class="comparison-card__detail"><span>Mean</span><span>3.3</span></div>
+          <div class="comparison-card__detail"><span>Variance</span><span>1.4</span></div>
+        </article>
+        <article class="comparison-card">
+          <h4 class="comparison-card__title">Denner.ch mobile view</h4>
+          <div class="comparison-card__detail"><span>Design</span><span>Landscape</span></div>
+          <div class="comparison-card__detail"><span>Mean</span><span>3.5</span></div>
+          <div class="comparison-card__detail"><span>Variance</span><span>1.4</span></div>
+        </article>
+        <article class="comparison-card">
+          <h4 class="comparison-card__title">Denner app view B</h4>
+          <div class="comparison-card__detail"><span>Design</span><span>2er Grid</span></div>
+          <div class="comparison-card__detail"><span>Mean</span><span>3.7</span></div>
+          <div class="comparison-card__detail"><span>Variance</span><span>1.1</span></div>
+        </article>
+        <article class="comparison-card comparison-card--highlight">
+          <h4 class="comparison-card__title">Design alternative</h4>
+          <div class="comparison-card__detail"><span>Design</span><span>Landscape</span></div>
+          <div class="comparison-card__detail"><span>Mean</span><span>4.1</span></div>
+          <div class="comparison-card__detail"><span>Variance</span><span>1.0</span></div>
+        </article>
+      </div>
+
+      <div class="text-block">
+        <p>ANOVA: significant differences between designs</p>
+        <ul>
+          <li>F-Wert 162.1 &gt; Fcrit 2.606</li>
+        </ul>
+        <p>Pairwise t-tests (with Bonferroni correction):</p>
+        <ul>
+          <li>P-Wert &lt; 0.008</li>
+        </ul>
+        <p>The alternative design is significantly better than all comparison designs.</p>
+      </div>
+
+      <hr class="divider">
+
+      <h2>Decision and implementation</h2>
+      <div class="text-block">
+        <p>Based on the clear results, the product team decided on:</p>
+        <ul>
+          <li>Implementing the new design</li>
+          <li>Moving into product development</li>
+        </ul>
+      </div>
+
+      <hr class="divider">
+
+      <h2>Measurable product success</h2>
+      <div class="text-block">
+        <p>After go-live, another CSAT survey was conducted:</p>
+        <ul>
+          <li><strong>Before</strong> redesign: 58%</li>
+          <li><strong>After</strong> redesign: 86% → <span class="highlight">+26% increase</span></li>
+        </ul>
+        <ul>
+          <li>Confirmation that better clarity directly improves user satisfaction.</li>
+          <li>Example of a data-informed UX decision with measurable business value</li>
+        </ul>
+      </div>
+
+      <figure class="image-block">
+        <img src="../../assets/images/uebersichtlichkeit-2.jpg" alt="CSAT survey before and after redesign">
+      </figure>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__name">Severin Grob</span>
+      <div class="footer__contact">
+        <a href="mailto:severin.grob@hotmail.com">severin.grob@hotmail.com</a>
+        <a href="tel:+41774084430">077 408 44 30</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../js/nav.js"></script>
+  <script src="../../js/carousel.js"></script>
+</body>
+</html>

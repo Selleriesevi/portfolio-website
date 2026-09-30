@@ -15,6 +15,10 @@
     display: block;
   }
 
+  .nav__menu .nav__lang {
+    display: none;
+  }
+
   .section--hero {
     padding: 40px 0;
   }
