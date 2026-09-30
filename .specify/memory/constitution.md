@@ -1,8 +1,8 @@
 <!--
 Sync Impact Report
-- Version change: template → 1.0.0
-- Modified principles: All placeholders replaced with portfolio-specific principles
-- Added sections: Technology Constraints, Deployment, Quality Standards
+- Version change: 1.0.0 → 1.1.0
+- Modified principles: Technology Constraints — Language now DE (default) + EN mirror under site/en/
+- Added sections: none
 - Templates: plan-template.md ✅ aligned, spec-template.md ✅ aligned, tasks-template.md ✅ aligned
 - Follow-up TODOs: none
 -->
@@ -37,7 +37,7 @@ All text, contact details, case study content, and CV information MUST reflect t
 - **Hosting**: GitHub Pages (static site from repository root or `/docs` or `/site`)
 - **Assets**: Images and icons stored in the repository under `assets/`
 - **Fonts**: Google Fonts (Inter) as specified in Figma
-- **Language**: German (`lang="de"`) for all user-facing content
+- **Language**: German default at site root (`lang="de"`) and English mirror under `site/en/` (`lang="en"`) with paired pages and a DE | EN switcher
 - **No backend**: Contact via `mailto:` and `tel:` links only
 
 ## Quality Standards
@@ -61,4 +61,4 @@ This constitution supersedes ad-hoc implementation decisions. Amendments require
 
 All implementation work MUST verify compliance with principles I–V before merge or deployment.
 
-**Version**: 1.0.0 | **Ratified**: 2026-07-22 | **Last Amended**: 2026-07-22
+**Version**: 1.1.0 | **Ratified**: 2026-07-22 | **Last Amended**: 2026-09-29

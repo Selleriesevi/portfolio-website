@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Severin Grob — Portfolio</title>
+  <link rel="alternate" hreflang="de" href="../index.html">
+  <link rel="alternate" hreflang="en" href="index.html">
+  <link rel="alternate" hreflang="x-default" href="../index.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">Severin Grob</a>
+      <nav class="nav__menu" aria-label="Main navigation">
+        <div class="nav__links">
+          <a href="#case-studies">Case studies</a>
+          <a href="cv.html">CV</a>
+        </div>
+        <div class="nav__lang" role="group" aria-label="Language">
+          <a class="nav__lang-link" href="../index.html" hreflang="de" lang="de">DE</a>
+          <span class="nav__lang-separator" aria-hidden="true">|</span>
+          <span class="nav__lang-link nav__lang-link--active" aria-current="page">EN</span>
+        </div>
+        <a href="https://www.linkedin.com/in/severin-grob-9a1a15102/" class="btn btn--nav" target="_blank" rel="noopener noreferrer">Let's work together</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-flyout">
+        <span class="nav__toggle-icon" aria-hidden="true">
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <nav id="nav-flyout" class="nav__flyout" aria-label="Mobile navigation">
+    <div class="nav__flyout-lang" role="group" aria-label="Language">
+      <a class="nav__flyout-lang-link" href="../index.html" hreflang="de" lang="de">DE</a>
+      <span class="nav__flyout-lang-separator" aria-hidden="true">|</span>
+      <span class="nav__flyout-lang-link nav__flyout-lang-link--active" aria-current="page">EN</span>
+    </div>
+    <a class="nav__flyout-item" href="case-studies/einkaufsliste.html">Case study: Shopping list</a>
+    <a class="nav__flyout-item" href="case-studies/uebersichtlichkeit.html">Case study: App clarity</a>
+    <a class="nav__flyout-item" href="case-studies/wunddokumentation.html">Case study: 3D scan app</a>
+    <a class="nav__flyout-item" href="case-studies/weinkonsum.html">Case study: Wine consumption</a>
+    <a class="nav__flyout-item" href="cv.html">CV</a>
+    <div class="nav__flyout-cta">
+      <a href="https://www.linkedin.com/in/severin-grob-9a1a15102/" class="btn" target="_blank" rel="noopener noreferrer">Let's work together</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section section--hero hero">
+      <div class="container hero__inner">
+        <img class="hero__avatar" src="../assets/images/hero.jpg" alt="Severin Grob" width="90" height="90">
+        <h1 class="hero__title">Hi, I'm Severin Grob</h1>
+        <div class="hero__text">
+          <p>Product owner with five years of experience, focused on UX research and UX design. Master's degree in Business Innovation (HSG) and a completed MAS in Human Computer Interaction Design (OST).</p>
+          <p>As a creative problem solver, I combine interdisciplinary thinking with strong analytical skills to drive the success of digital products. With genuine curiosity, I continuously identify new user needs and translate them into impactful product solutions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="case-studies" class="section-heading">
+      <div class="container">
+        <h2>Case Studies</h2>
+      </div>
+    </section>
+
+    <article class="project">
+      <div class="container project__inner">
+        <div class="project__image">
+          <img src="../assets/images/cs-einkaufsliste.jpg" alt="Denner app shopping list">
+        </div>
+        <div class="project__content">
+          <h3>Denner app shopping list</h3>
+          <p>Low engagement with the shopping list led to poor ratings and missed purchases. I identified and prioritized the problem and optimized the feature end to end:</p>
+          <ul class="project__metrics">
+            <li><span class="highlight">28% increase in usage</span></li>
+            <li><span class="highlight">90% CSAT score</span></li>
+          </ul>
+          <a href="case-studies/einkaufsliste.html" class="btn">Read more</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="container project__inner">
+        <div class="project__image project__image--cover">
+          <img src="../assets/images/cs-uebersichtlichkeit.jpg" alt="Denner app clarity">
+        </div>
+        <div class="project__content">
+          <h3>Denner app clarity</h3>
+          <p>Research and design work to improve perceived clarity and overview.</p>
+          <ul class="project__metrics">
+            <li><span class="highlight">+26 CSAT increase</span></li>
+          </ul>
+          <a href="case-studies/uebersichtlichkeit.html" class="btn">Read more</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="container project__inner">
+        <div class="project__image project__image--cover">
+          <img src="../assets/images/cs-wunddokumentation-app.png" alt="3D scan for wound documentation">
+        </div>
+        <div class="project__content">
+          <h3>3D scan for wound documentation</h3>
+          <p>Concept, prototyping, and validation of new guidance for LiDAR-based 3D wound documentation.</p>
+          <ul class="project__metrics">
+            <li><span class="highlight">SUS score of 77.81</span></li>
+          </ul>
+          <a href="case-studies/wunddokumentation.html" class="btn">Read more</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="container project__inner">
+        <div class="project__image project__image--cover">
+          <img src="../assets/images/cs-weinkonsum.jpg" alt="Persona Marco, wine novice, from the wine consumption study">
+        </div>
+        <div class="project__content">
+          <h3>Generative research to wine consumption</h3>
+          <p>Limited knowledge about wine customers in the Denner wine shop. I led a generative research study and developed personas and opportunity areas from the findings.</p>
+          <ul class="project__metrics">
+            <li><span class="highlight">21 video interviews</span></li>
+            <li><span class="highlight">4 validated personas</span></li>
+          </ul>
+          <a href="case-studies/weinkonsum.html" class="btn">Read more</a>
+        </div>
+      </div>
+    </article>
+
+    <section class="section section--skills skills">
+      <div class="container skills__inner skills__inner--desktop">
+        <span class="skills__item">UX Research</span>
+        <img class="skills__icon" src="../assets/icons/icon-ux-research.svg" alt="">
+        <span class="skills__item">UX Design</span>
+        <img class="skills__icon" src="../assets/icons/icon-ux-design.svg" alt="">
+        <span class="skills__item">Design Thinking</span>
+        <img class="skills__icon" src="../assets/icons/icon-design-thinking.svg" alt="">
+        <span class="skills__item">Prototyping</span>
+        <img class="skills__icon" src="../assets/icons/icon-prototyping.svg" alt="">
+        <span class="skills__item">Vibecoding</span>
+        <img class="skills__icon" src="../assets/icons/icon-vibecoding.svg" alt="">
+      </div>
+      <div class="container skills__inner skills__inner--mobile">
+        <span class="skills__item">UX Research</span>
+        <img class="skills__icon" src="../assets/icons/icon-ux-research-mobile.svg" alt="">
+        <span class="skills__item">UX Design</span>
+        <img class="skills__icon" src="../assets/icons/icon-ux-design-mobile.svg" alt="">
+        <span class="skills__item">Design Thinking</span>
+        <img class="skills__icon skills__icon--rotate" src="../assets/icons/icon-design-thinking-mobile.svg" alt="">
+        <span class="skills__item">Interviews</span>
+        <img class="skills__icon" src="../assets/icons/icon-interviews.svg" alt="">
+        <span class="skills__item">Quantitative Research</span>
+        <img class="skills__icon" src="../assets/icons/icon-quantitative-research.svg" alt="">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__name">Severin Grob</span>
+      <div class="footer__contact">
+        <a href="mailto:severin.grob@hotmail.com">severin.grob@hotmail.com</a>
+        <a href="tel:+41774084430">077 408 44 30</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/nav.js"></script>
+</body>
+</html>

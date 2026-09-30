@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denner app shopping list — Severin Grob</title>
+  <link rel="alternate" hreflang="de" href="../../case-studies/einkaufsliste.html">
+  <link rel="alternate" hreflang="en" href="einkaufsliste.html">
+  <link rel="alternate" hreflang="x-default" href="../../case-studies/einkaufsliste.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/case-study.css">
+  <link rel="stylesheet" href="../../css/responsive.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="../index.html" class="nav__logo">Severin Grob</a>
+      <nav class="nav__menu" aria-label="Main navigation">
+        <div class="nav__links">
+          <a href="../index.html#case-studies">Case studies</a>
+          <a href="../cv.html">CV</a>
+        </div>
+        <div class="nav__lang" role="group" aria-label="Language">
+          <a class="nav__lang-link" href="../../case-studies/einkaufsliste.html" hreflang="de" lang="de">DE</a>
+          <span class="nav__lang-separator" aria-hidden="true">|</span>
+          <span class="nav__lang-link nav__lang-link--active" aria-current="page">EN</span>
+        </div>
+        <a href="https://www.linkedin.com/in/severin-grob-9a1a15102/" class="btn btn--nav" target="_blank" rel="noopener noreferrer">Let's work together</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-flyout">
+        <span class="nav__toggle-icon" aria-hidden="true">
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+          <span class="nav__toggle-line"></span>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <nav id="nav-flyout" class="nav__flyout" aria-label="Mobile navigation">
+    <div class="nav__flyout-lang" role="group" aria-label="Language">
+      <a class="nav__flyout-lang-link" href="../../case-studies/einkaufsliste.html" hreflang="de" lang="de">DE</a>
+      <span class="nav__flyout-lang-separator" aria-hidden="true">|</span>
+      <span class="nav__flyout-lang-link nav__flyout-lang-link--active" aria-current="page">EN</span>
+    </div>
+    <a class="nav__flyout-item" href="einkaufsliste.html">Case study: Shopping list</a>
+    <a class="nav__flyout-item" href="uebersichtlichkeit.html">Case study: App clarity</a>
+    <a class="nav__flyout-item" href="wunddokumentation.html">Case study: 3D scan app</a>
+    <a class="nav__flyout-item" href="weinkonsum.html">Case study: Wine consumption</a>
+    <a class="nav__flyout-item" href="../cv.html">CV</a>
+    <div class="nav__flyout-cta">
+      <a href="https://www.linkedin.com/in/severin-grob-9a1a15102/" class="btn" target="_blank" rel="noopener noreferrer">Let's work together</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="case-hero case-hero--panel case-hero--einkaufsliste">
+      <img class="case-hero__bg case-hero__bg--desktop" src="../../assets/images/hero-einkaufsliste-desktop.png" alt="">
+      <img class="case-hero__bg case-hero__bg--mobile" src="../../assets/images/hero-einkaufsliste-mobile.jpg" alt="">
+      <div class="case-hero__title-panel">
+        <h1 class="case-hero__title">Shopping list optimization</h1>
+      </div>
+    </section>
+
+    <div class="container content-section">
+      <h2>Executive Summary</h2>
+      <div class="text-block">
+        <p>The shopping list feature showed low engagement, leading to opportunity costs and poor app ratings. Through a data-driven discovery phase and iterative design based on user feedback, I optimized the Denner app shopping list. The result:</p>
+        <ul>
+          <li><strong class="highlight">28%</strong> more active users of the shopping list feature after go-live</li>
+          <li><strong class="highlight">90%</strong> CSAT-Score</li>
+        </ul>
+      </div>
+
+      <div class="text-block">
+        <p class="role-title">My role:</p>
+        <ul>
+          <li>Project lead</li>
+          <li>User research lead</li>
+          <li>Requirements engineering</li>
+        </ul>
+      </div>
+
+      <figure class="image-block image-block--desktop-only">
+        <img src="../../assets/images/einkaufsliste-1.jpg" alt="Comparison of old design and design proposal">
+      </figure>
+
+      <div class="carousel carousel--mobile-only" aria-label="Design comparison">
+        <div class="carousel__track">
+          <div class="carousel__slide">
+            <img src="../../assets/images/carousel/eink-1-alte.jpg" alt="Old shopping list">
+            <p class="carousel__caption">Old shopping list</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../../assets/images/carousel/eink-1-mid.jpg" alt="My mid-fidelity design">
+            <p class="carousel__caption">My mid-fidelity design</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../../assets/images/carousel/eink-1-neu.jpg" alt="New shopping list design">
+            <p class="carousel__caption">New shopping list design</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-block">
+        <p class="role-title">My tasks:</p>
+        <ul>
+          <li><strong>Qualitative UX research:</strong> Who are current users and how do they experience the product today?</li>
+          <li><strong>UX design from low- to mid-fidelity:</strong> Redesign proposals</li>
+          <li>Writing backlog items in Azure DevOps and running acceptance tests</li>
+          <li>Post-launch documentation</li>
+        </ul>
+      </div>
+
+      <h2>Methods used:</h2>
+      <div class="chips">
+        <span class="chip">Sentiment analysis</span>
+        <span class="chip">Survey</span>
+        <span class="chip">Wireframing</span>
+        <span class="chip">Iterative prototyping</span>
+        <span class="chip">User interviews</span>
+        <span class="chip">Usability testing</span>
+        <span class="chip">GA4 analysis</span>
+      </div>
+
+      <hr class="divider">
+
+      <h3 class="subtitle">DISCOVER</h3>
+      <h2>Identify and validate the problem</h2>
+      <div class="text-block">
+        <p>Using several independent data sources, I showed that the shopping list did not meet user expectations.</p>
+        <ul>
+          <li><strong>Sentiment analysis</strong> of reviews in the Google Play Store and App Store
+            <ul><li>8% of all app reviews explicitly mentioned the shopping list</li></ul>
+          </li>
+          <li><strong>Exploratory in-app survey</strong>
+            <ul>
+              <li>Question: If you had a magic wand, what would you change about the Denner app?</li>
+              <li>18% of respondents (n=1040) mentioned redesigning the shopping list.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <hr class="divider">
+
+      <h3 class="subtitle subtitle--alt">EXPLORE &amp; TEST</h3>
+      <h2>Design development and iterative validation</h2>
+      <div class="text-block">
+        <p>Solutions emerged from user feedback and were validated over several iterations.</p>
+        <ol>
+          <li><strong>Low-fidelity design</strong> based on survey feedback</li>
+          <li>Conducting <strong>Interviews</strong> with integrated usability test</li>
+          <li>Iteration of the <strong>mid-fidelity design</strong> based on insights</li>
+          <li>Presenting research findings to UX/UI designers for high-fidelity design</li>
+          <li><strong>Usability test</strong> with high-fidelity design (n=5)</li>
+          <li>Adjustments to the high-fidelity design</li>
+        </ol>
+      </div>
+
+      <figure class="image-block image-block--desktop-only">
+        <img src="../../assets/images/einkaufsliste-2.jpg" alt="Design iterations from low to high fidelity">
+        <figcaption>The first three screenshots (low to mid-fidelity design) predate my involvement.</figcaption>
+      </figure>
+
+      <div class="carousel carousel--mobile-only" aria-label="Design iterations">
+        <div class="carousel__track">
+          <div class="carousel__slide">
+            <img src="../../assets/images/carousel/eink-2-skizze.jpg" alt="My low-fidelity sketch">
+            <p class="carousel__caption">My low-fidelity sketch</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../../assets/images/carousel/eink-2-mid.jpg" alt="My first mid-fidelity design">
+            <p class="carousel__caption">My first mid-fidelity design</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../../assets/images/carousel/eink-2-neu-1.jpg" alt="My second mid-fidelity design">
+            <p class="carousel__caption">My second mid-fidelity design</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../../assets/images/carousel/eink-2-neu-2.jpg" alt="First design after handoff">
+            <p class="carousel__caption">First design after handoff</p>
+          </div>
+          <div class="carousel__slide">
+            <img src="../../assets/images/carousel/eink-2-neu-3.jpg" alt="Second design after handoff">
+            <p class="carousel__caption">Second design after handoff</p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <h3 class="subtitle">LISTEN</h3>
+      <h2>Measurable impact after go-live</h2>
+      <div class="text-block">
+        <p>My research results and low-fidelity design proposals led to a changed design. The optimization had a clear measurable effect on usage and satisfaction.</p>
+        <ul>
+          <li><strong>+<span class="highlight">28%</span> active users</strong>, who use the shopping list</li>
+          <li><strong>CSAT Score: <span class="highlight">90%</span></strong></li>
+          <li>Significantly improved user satisfaction for a core feature that had long been neglected.</li>
+        </ul>
+      </div>
+
+      <figure class="image-block">
+        <img src="../../assets/images/einkaufsliste-3.jpg" alt="Looker Studio usage statistics">
+        <figcaption>My Looker Studio visualization shows that usage of the shopping list feature increased significantly after the June go-live.</figcaption>
+      </figure>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__name">Severin Grob</span>
+      <div class="footer__contact">
+        <a href="mailto:severin.grob@hotmail.com">severin.grob@hotmail.com</a>
+        <a href="tel:+41774084430">077 408 44 30</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../js/nav.js"></script>
+  <script src="../../js/carousel.js"></script>
+</body>
+</html>
